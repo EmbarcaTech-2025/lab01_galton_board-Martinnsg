@@ -3,7 +3,7 @@
 **Autor:** Gabriel Martins  
 **Curso:** Residência Tecnológica em Sistemas Embarcados  
 **Instituição:** EmbarcaTech - HBr  
-**Local:** Campinas, ___ de 2025
+**Local:** Campinas, 09 de maio de 2025
 
 ---
 
@@ -27,7 +27,7 @@ Este projeto implementa uma versão digital de uma **Galton Board** utilizando a
 ---
 
 ## 🗂️ Estrutura do Projeto
-
+```
 galton_board/
 ├── src/
 │ ├── main.c
@@ -39,8 +39,7 @@ galton_board/
 │ ├── graphics.h
 │ └── machine.h
 ├── CMakeLists.txt
-
-
+```
 ---
 
 ## 🚀 Como Rodar
@@ -65,6 +64,8 @@ make
 
     Copie o .uf2 gerado na pasta build/ para o dispositivo montado
 
+```
+
 🧪 Resultados Esperados
 
     As partículas aparecem uma a uma, caindo e se desviando nos pinos
@@ -75,15 +76,6 @@ make
 
     Os pinos são desenhados estaticamente no centro da tela
 
-🛠️ Melhorias Futuras
-
-    Controle via botão físico ou encoder rotativo
-
-    Interface Web usando Wi-Fi (Pico W)
-
-    Salvamento do histograma em memória persistente
-
-    Modo de simulação com parâmetros ajustáveis
 
 📜 Licença
 
