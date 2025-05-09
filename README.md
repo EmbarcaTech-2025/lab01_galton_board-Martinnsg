@@ -60,20 +60,17 @@ make
 ```
 ### 📤 Upload do firmware
 
-    Conecte o Pico W em modo BOOTSEL
+Conecte o Pico W em modo BOOTSEL
 
-    Opção 1: Copie o .uf2 gerado na pasta build/ para o dispositivo montado
-    Opção 2: Rode pelo VS code com a extensão da Raspberry Pi Pico
+Opção 1: Copie o .uf2 gerado na pasta build/ para o dispositivo montado
+Opção 2: Rode pelo VS code com a extensão da Raspberry Pi Pico
 
 ###  🧪 Resultados Esperados
 
-    As partículas aparecem uma a uma, caindo e se desviando nos pinos
-
-    O histograma se forma dinamicamente na parte inferior da tela
-
-    Um contador mostra o número total de partículas simuladas
-
-    Os pinos são desenhados estaticamente no centro da tela
+As partículas aparecem uma a uma, caindo e se desviando nos pinos
+O histograma se forma dinamicamente na parte inferior da tela
+Um contador mostra o número total de partículas simuladas
+Os pinos são desenhados estaticamente no centro da tela
 
 
 ### 📜 Licença
