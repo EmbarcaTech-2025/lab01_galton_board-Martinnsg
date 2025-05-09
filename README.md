@@ -54,19 +54,18 @@ galton_board/
 ### 🔨 Compilação
 
 ```bash
-mkdir build && cd build
-cmake ..
+mkdir -p build && cd build
+cmake .. -G Ninja
 make
-
-📤 Upload do firmware
+```
+### 📤 Upload do firmware
 
     Conecte o Pico W em modo BOOTSEL
 
-    Copie o .uf2 gerado na pasta build/ para o dispositivo montado
+    Opção 1: Copie o .uf2 gerado na pasta build/ para o dispositivo montado
+    Opção 2: Rode pelo VS code com a extensão da Raspberry Pi Pico
 
-```
-
-🧪 Resultados Esperados
+###  🧪 Resultados Esperados
 
     As partículas aparecem uma a uma, caindo e se desviando nos pinos
 
@@ -77,6 +76,6 @@ make
     Os pinos são desenhados estaticamente no centro da tela
 
 
-📜 Licença
+### 📜 Licença
 
 Este projeto está licenciado sob os termos da MIT License. 
